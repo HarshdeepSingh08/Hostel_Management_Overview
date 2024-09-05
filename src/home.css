@@ -1,0 +1,135 @@
+.home-container {
+    width: 100%;
+}
+
+.home-header {
+    background-image: url('./assets/homepage.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+    width: 100%;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-title {
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    border: 4px solid white;
+    padding: 20px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.unigo-logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.home-content {
+    padding: 20px;
+}
+
+.home-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.home-logo-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.unigo-tagline {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.app-link {
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #007bff;
+}
+
+.user-guide {
+    margin-top: 50px;
+}
+
+.user-guide h3 {
+    font-size: 24px;
+}
+
+.user-guide ol {
+    font-size: 18px;
+}
+
+/* Frontend, Backend, and Database sections */
+.home-overview {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* Styling for circular images in tech stack sections */
+.tech-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+/* Styling for glimpse images */
+.glimpse-img {
+    width: 85%;
+    height: auto;
+    object-fit: cover;
+    margin: 10px 0;
+}
+
+/* Center the columns in each section */
+.mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* Styling for tech stack section paragraphs */
+p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .home-title {
+        font-size: 36px;
+    }
+
+    .home-content {
+        padding: 15px;
+    }
+
+    .home-overview {
+        font-size: 20px;
+    }
+
+    /* Ensure glimpse images remain rectangular on small screens */
+    .glimpse-img {
+        width: 85%;
+        height: auto;
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,9 @@
+body {
+  background: #03060afa !important;
+  min-height: 100vh !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  color: antiquewhite !important;
+  font-family: 'Inter', sans-serif !important; /* Continue using Inter font if applicable */
+}
