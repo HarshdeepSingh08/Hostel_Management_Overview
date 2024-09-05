@@ -44,7 +44,7 @@ const Home = () => {
                                 simplifies tasks for both students and administrators, ensuring a seamless and efficient experience for all.
                             </p>
                             <ul className="home-description">
-                                <li><strong>For Students:</strong> The platform allows students to easily book hostel rooms, raise concerns, and manage
+                                <li><strong>For Students:</strong> The platform allows students to easily get hostel rooms without standing in lines for hours, raise concerns, and manage
                                     their accommodation-related needs with just a few clicks.</li>
                                 <li><strong>For Administrators:</strong> Admin staff can efficiently allocate rooms, manage student requests, and address
                                     concerns in a timely manner, all within a single, user-friendly interface.</li>
