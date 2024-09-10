@@ -32,7 +32,7 @@ const Home = () => {
                     <div className="col-md-12">
                         <section className="home-content">
                             <h2 className="home-overview" style={{ fontWeight: 'bold', textAlign: 'center', fontSize: 'xxx-large', marginBottom: '40px' }}>
-                                Platform Overview: Hostel Management Solution
+                                Platform Overview: Hostel Management System
                             </h2>
                             <p className="home-description">
                                 Managing hostel-related tasks can be challenging for both students and administrative staff. Students often face
@@ -49,7 +49,9 @@ const Home = () => {
                                 <li><strong>For Administrators:</strong> Admin staff can efficiently allocate rooms, manage student requests, and address
                                     concerns in a timely manner, all within a single, user-friendly interface.</li>
                             </ul>
-
+                            <a href="https://hostel-management-cp.netlify.app/" target="_blank" rel="noopener noreferrer" style={{display:"flex", alignItems:"center",justifyContent:"center",fontSize: "xx-large"}}>
+                                Website link
+                            </a>
                             <h2 className="home-overview" style={{ fontWeight: 'bold', textAlign: 'center', fontSize: 'xxx-large', marginBottom: '40px', marginTop: '50px' }}>
                                 Tech Stack Used
                             </h2>
@@ -156,8 +158,8 @@ const Home = () => {
             </div>
 
             <h2 className="home-overview" style={{ fontWeight: 'bold', textAlign: 'center', fontSize: 'xxx-large', marginBottom: '40px', marginTop: '50px' }}>
-                    Thanks
-                </h2>
+                Thanks
+            </h2>
         </div>
     );
 };
